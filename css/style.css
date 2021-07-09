@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body, #banner{
+    height: 100%;
+}
+
+/* header */
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 2rem;
+    padding-left: .5rem;
+    font-weight: bold;
+    color: #100c4e;
+}
+.navbar-expand-md .navbar-nav .nav-link:hover {
+    color: #3cce9d ;
+}
+
+
+/* banner */
+#banner{
+    background: url(/img/home/bg-banner.svg) no-repeat center;
+    background-size: cover;
+}
+#banner h1{
+    letter-spacing: -5px;
+    color: #100c4e;
+}
+#banner p{
+    width: 70%;
+    color: #030311b3;
+}
+.btn-custom{
+    background: #e784be;
+    padding: 10px 30px;
+    color: #fff;
+    font-weight: bold;
+}
+.btn-custom:hover{
+    background: #8e48c7;
+    color: #fff;
+}
