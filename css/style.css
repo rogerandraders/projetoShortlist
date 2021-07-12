@@ -10,7 +10,7 @@ html, body, #banner{
 /* header */
 
 .navbar-expand-md .navbar-nav .nav-link {
-    padding-right: 2rem;
+    padding-right: 1.9rem;
     padding-left: .5rem;
     font-weight: bold;
     color: #100c4e;
@@ -26,7 +26,7 @@ html, body, #banner{
     background-size: cover;
 }
 #banner h1{
-    letter-spacing: -5px;
+    letter-spacing: -4px;
     color: #100c4e;
 }
 #banner p{
@@ -42,4 +42,57 @@ html, body, #banner{
 .btn-custom:hover{
     background: #8e48c7;
     color: #fff;
+}
+
+/* clientes */
+#clients{
+    padding: 80px 0 100px 0;
+}
+#clients h2{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #100c4e;
+}
+#clients p{
+    color: #100c4e;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+#clients a{
+    text-decoration: none;
+    margin-top: -10px;
+}
+#clients a span{
+    font-size: .9em;
+    font-weight: 700;
+    color:#868686
+}
+#clients a span:hover{
+    color: #2aa8be;
+    transition: .5s;
+}
+#clients h5{
+    margin-top: 10px;
+    font-size: .98em;
+    font-weight: bold;
+    color: #100c4e;
+}
+#clients span{
+    color: #868686;
+}
+#clients .card-testimonial{
+    margin-top: 70px;
+}
+.amaz-clients span{
+    font-size: 1.2em;
+}
+.amaz-clients h3{
+    font-weight: 700;
+    font-size: 3.4em;
+    color: #100c4e;
+}
+#clients .amaz-clients p{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    color: #868686;
 }
