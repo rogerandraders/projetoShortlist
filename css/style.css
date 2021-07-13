@@ -96,3 +96,48 @@ html, body, #banner{
     margin-bottom: 60px;
     color: #868686;
 }
+
+/* CEO */
+#ceo{
+    background: #f8f9fc;
+}
+.ceo-box{
+    padding: 60px 0;
+}
+.ceo-box-internal{
+    padding: 10px 0;
+}
+.c-different{
+    margin: 30px 0;
+}
+.c-different ul li span{
+    color: #3cce9d;
+    font-weight: 700;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+.c-different ul li p{
+    color: #868686;
+    font-size: 1.2em;
+    padding-right: 60px ;
+}
+#ceo ul{
+    list-style: none;
+    padding: 0;
+}
+#ceo li{
+    width: 300px;
+    display: grid;
+    float: left;
+    margin-bottom: 30px;    
+}
+#ceo h5{
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #3cce9d;
+}
+#ceo h3{
+    font-size: 3.4em;
+    font-weight: bold;
+    color: #100c4e;
+}
