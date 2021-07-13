@@ -188,3 +188,63 @@ html, body, #banner{
     background: #8e48c7;
     color: #fff;
 }
+
+
+/* brands */
+.brands{
+    margin: 110px 0;
+}
+.content-text h3{
+    font-size: 3.4em;
+    font-weight: bold;
+    color: #100c4e;
+    letter-spacing: -2px;
+    margin-bottom: 30px;
+}
+.content-text h5{
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #3cce9d;
+}
+.content-text p{
+    color: #868686;
+    font-size: 1.2em;
+    padding-right: 60px ;
+    line-height: 1.6em;
+}
+
+.content-list{
+    margin-top: 40px;
+}
+.content-list ul{
+    list-style: none;
+    padding: 0;
+}
+.content-list ul li{
+    width: 300px;
+    float: left;
+    margin-bottom: 40px;
+    padding-right: 40px;
+}
+.content-list ul li span{
+    color: #3cce9d;
+    font-weight: 700;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+.content-list ul li p{
+    color: #868686;
+    font-size: 1.2em;
+}
+.content-button .btn-custom-learn-blue{
+    background: #3cce9d;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 12px 35px ;
+    margin: 0 50px 0 0;
+}
+.content-button .btn-custom-learn-blue:hover{
+    background: #2aa8be;
+    color: #fff;
+}
