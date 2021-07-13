@@ -141,3 +141,50 @@ html, body, #banner{
     font-weight: bold;
     color: #100c4e;
 }
+
+#agencies{
+    padding: 100px 0;
+}
+#agencies p{
+    color: #868686;
+    font-size: 1.1em;
+    padding-right: 80px ;
+}
+#agencies ul{
+    list-style: none;
+    padding: 0;
+}
+#agencies li{
+    width: 300px;
+    display: grid;
+    float: left;
+    margin-bottom: 30px;    
+}
+#agencies h3{
+    font-size: 3.4em;
+    font-weight: bold;
+    color: #100c4e;
+}
+#agencies ul li span{
+    color: #fd72e6;
+    font-weight: 700;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+#agencies ul li p{
+    color: #868686;
+    font-size: 1.2em;
+    padding-right: 60px ;
+}
+.btn-custom-learn{
+    background: #fd72e6;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 12px 35px ;
+    margin: 0 50px 0 0;
+}
+.btn-custom-learn:hover{
+    background: #8e48c7;
+    color: #fff;
+}
