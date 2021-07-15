@@ -293,9 +293,47 @@ html, body, #banner{
 .world{
     background: url(/img/home/enviroment_background_image_s_o.jpg) no-repeat;
     background-size: cover;
-    padding: 100px 0;
+    padding: 120px 0;
 }
 .content-text .padding-world{
     padding: 0;
     font-size: 1.03em;
+}
+
+.lets{
+    background: url(/img/home/cta_background_image.svg) no-repeat;
+    background-size: cover;
+    padding: 60px 0;
+}
+.lets h1{
+    font-size: 4.4em;
+    font-weight: bold;
+    line-height: 1.5em;
+    color: #100c4e;
+}
+.lets p{
+    font-size: 1.1em;
+    color: #868686;
+    padding: 0 90px 30px;
+}
+.btn-custom-schedule-blue{
+    background: #3cce9d;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 12px 35px;
+    margin-bottom: 25px;
+}
+.btn-custom-schedule-blue:hover{
+    background: #2aa8be;
+    color: #fff;
+
+}
+.lets .view-plans a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #3cce9d;
+}
+.lets .view-plans a:hover{
+    color: #2aa8be;
 }
