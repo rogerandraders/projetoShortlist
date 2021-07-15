@@ -142,6 +142,7 @@ html, body, #banner{
     color: #100c4e;
 }
 
+/* agencies */
 #agencies{
     padding: 100px 0;
 }
@@ -247,4 +248,54 @@ html, body, #banner{
 .content-button .btn-custom-learn-blue:hover{
     background: #2aa8be;
     color: #fff;
+}
+.img-magnify img:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+/* case */
+.studies{
+    margin-bottom: 80px;
+}
+#case .content-text p{
+    padding-right: 0;
+}
+.cards-cases{
+    margin-top: 40px;
+}
+.cards-cases img{
+    transition: transform .5s ease;
+}
+.cards-cases img:hover{
+    transform: scale(1.1);
+}
+.card-body {
+    padding: 2rem 0 0 0;
+}
+.card-body .card-subtitle{
+    color: #3cce9d;
+    font-weight: bold;
+    font-size: .8em;
+    margin-bottom: 10px;
+}
+.card-body .card-title{
+    color: #100c4e;
+    font-weight: bold;
+}
+.card-body .card-text{
+    color: #100c4e;
+}
+.img-overflow{
+    overflow: hidden;
+}
+
+.world{
+    background: url(/img/home/enviroment_background_image_s_o.jpg) no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+.content-text .padding-world{
+    padding: 0;
+    font-size: 1.03em;
 }
