@@ -256,7 +256,7 @@ html, body, #banner{
 
 /* case */
 .studies{
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 #case .content-text p{
     padding-right: 0;
@@ -299,6 +299,9 @@ html, body, #banner{
     padding: 0;
     font-size: 1.03em;
 }
+.otp-sc a{
+    text-decoration: none;
+}
 
 .lets{
     background: url(/img/home/cta_background_image.svg) no-repeat;
@@ -336,4 +339,54 @@ html, body, #banner{
 }
 .lets .view-plans a:hover{
     color: #2aa8be;
+}
+
+.rodape{
+    background-color: #110e30;
+    padding: 60px 0;
+}
+.rodape .logo-rodape{
+    margin-bottom: 50px;
+}
+.rodape .texto-rodape{
+    font-size: 1.35em;
+}
+.rodape .s-message{
+    font-size: 1.35em;
+    color: #3cce9d;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.rodape .rodape-link-built p{
+    color: #868686;
+    font-size: 2.4em;
+    font-weight: bold;
+    letter-spacing: -.08em;
+    margin-top: -15px;
+}
+.rodape .rodape-link-built a{
+    font-size: 2em;
+    color: #dbdbdb;
+}
+.rodape .rodape-box1{
+    padding-bottom: 70px;
+    border-bottom: 1px solid rgba(255,255,255,.1);
+}
+.rodape .rodape-box2{
+    padding-top: 70px;
+}
+.rodape .rodape-lista{
+    padding: 0;
+    list-style: none;
+}
+.rodape .rodape-lista li{
+    line-height: 2em;
+}
+.rodape .rodape-lista li a{
+    text-decoration: none;
+    font-size: 1.35em;
+    color: #2aa8be;
+}
+.rodape .rodape-lista li a:hover{
+    color: #3cce9d;
 }
