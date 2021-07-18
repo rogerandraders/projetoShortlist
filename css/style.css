@@ -382,11 +382,34 @@ html, body, #banner{
 .rodape .rodape-lista li{
     line-height: 2em;
 }
-.rodape .rodape-lista li a{
+.rodape .rodape-lista a{
     text-decoration: none;
     font-size: 1.35em;
     color: #2aa8be;
 }
-.rodape .rodape-lista li a:hover{
+.rodape .rodape-lista a:hover{
     color: #3cce9d;
 }
+
+.rodape-box2 p{
+    color: #868686;
+    font-size: 1em;
+}
+.input-group-text {
+    background-color: #e784be;
+    font-weight: bold;
+    color: #fff;
+    font-size: .8em;
+    padding: 10px 25px;
+}
+.rodape-box3{
+    margin-top: 60px;
+}
+.rodape-box3 .rodape-lista span{
+    color:#2aa8be;
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+
+
